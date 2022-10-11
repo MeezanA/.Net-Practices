@@ -1,0 +1,16 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int i=1,j=2;
+        Console.WriteLine ("Hello Mono World");
+        do
+        {
+            Console.WriteLine ("{0}*{1}={2}",j,i,j*i);
+            i++;
+        }
+        while(i<=10);
+    }
+}
